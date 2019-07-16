@@ -1,13 +1,13 @@
-baseURL = "https://www.example.org/"
+baseURL = "/"
 languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "aaa"
-    useDarkTheme = false
+    title = ""
+    author = "Douglas Vinícius"
+    description = "Estatística & Concurso."
+    copyright = "doug"
+    useDarkTheme = true
 
    [params.favicons]
         use = true
@@ -22,9 +22,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-        tagline = "Title"
-        location = "City Name, ST"
+        name = "Douglas Vinícius"
+        tagline = "Estatística & Concurso."
+        location = "Rondônia, BR"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -34,7 +34,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
@@ -44,23 +44,13 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/Doug7Vinicius"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
             url = "#"
             title = "Twitter"
-        [[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-        [[params.social.list]]
-            class = "ai"
-            icon = "ai-researchgate"
-            url = "#"
-            title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -80,13 +70,13 @@ theme = "aafu"
         item = "hobby"
 
     [params.aboutme]
-        title = "About Me"
+        title = "Sobre Mim"
         icon = "fas fa-user"
         description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
     # Experience section
     [params.experience]
-        title = "Experiences"
+        title = "Experiência"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
@@ -102,7 +92,7 @@ theme = "aafu"
 
     # Education section
     [params.education]
-        title = "Education"
+        title = "Educação"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
@@ -124,7 +114,7 @@ theme = "aafu"
 
     # Publication section
     [params.publication]
-        title = "Publications"
+        title = "Publicações"
         icon = "fas fa-book"
 
         [[params.publication.list]]
@@ -148,29 +138,33 @@ theme = "aafu"
 
     # Project section
     [params.project]
-        title = "Projects"
+        title = "Projetos"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
-            title = "project"
+            title = "Estatística Descritiva"
             url = "#"
-            description = "Description of the project"
+            description = "Estatística descritiva e análise exploratória de dados."
         [[params.project.list]]
-            title = "project"
+            title = "Probabilidade"
             url = "#"
-            description = "Description of the project"
+            description = "Teoria da Probabilidade."
         [[params.project.list]]
-            title = "project"
+            title = "Inferência"
             url = "#"
-            description = "Description of the project"
+            description = "Inferência Estatística."
         [[params.project.list]]
-            title = "project"
+            title = "Análise de Regressão Linear"
             url = "#"
-            description = "Description of the project"            
+            description = "Análise de Regressão Linear."
+        [[params.project.list]]
+            title = "Amostragem"
+            url = "#"
+            description = "Técnias de Amostragem."
 
     # Skill section
     [params.skill]
-        title = "Skills"
+        title = "Habilidades"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
@@ -189,8 +183,8 @@ theme = "aafu"
         icon = "fas fa-gamepad"
 
         [[params.hobby.list]]		
-            hobby = "Cooking"
+            hobby = "Violoncelo"
         [[params.hobby.list]]		
-            hobby = "Hiking"
+            hobby = "Astronomia"
         [[params.hobby.list]]		
-            hobby = "Baking"
+            hobby = "Xadrez"
