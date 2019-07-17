@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = ""
+    title = "Doug"
     author = "Douglas Vinícius"
     description = "Estatística & Concurso."
     copyright = "doug"
@@ -171,10 +171,10 @@ theme = "aafu"
             skill = "Skill 1, Skill 2"
             skillrating = 90
         [[params.skill.list]]
-            skill = "Skill 3"
+            skill = "Programação em R"
             skillrating = 80
         [[params.skill.list]]
-            skill = "Skill 4"
+            skill = "Português"
             skillrating = 50
 
     # Hobby section
