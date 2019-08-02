@@ -1,0 +1,9 @@
+{{ range.Site.Params.posts.list }}
+<p class="text-dark">
+  {{ .date }} &middot; {{ .authors }} &middot;
+  <a class="text-white" href="{{ .link }}"
+    ><i>"{{ .title }}"</i></a
+  >
+  {{ .journal }}
+</p>
+{{ end }}
