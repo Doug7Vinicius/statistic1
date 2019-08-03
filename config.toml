@@ -13,11 +13,11 @@ theme = "aafu"
         use = true
         metas = '''
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="pi.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="pi.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="sigma.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="sigma.png">
         <link rel="manifest" href="site.webmanifest">
         <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-        <link rel="shortcut icon" href="pi.png">
+        <link rel="shortcut icon" href="sigma.png">
         '''
 
     # Profile section
